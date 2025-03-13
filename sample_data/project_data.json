@@ -1,0 +1,173 @@
+{
+    "project_info": {
+        "id": "PRJ-2023-001",
+        "name": "Enterprise Data Warehouse Modernization",
+        "description": "Upgrade the existing data warehouse to a cloud-based solution with enhanced analytics capabilities",
+        "start_date": "2023-01-15",
+        "planned_end_date": "2023-10-30",
+        "actual_end_date": null,
+        "status": "In Progress",
+        "completion_percentage": 65
+    },
+    "budget": {
+        "total_budget": 850000,
+        "spent_to_date": 580000,
+        "remaining": 270000,
+        "cost_variance": -20000
+    },
+    "resources": [
+        {
+            "name": "John Smith",
+            "role": "Project Manager",
+            "allocation": 100
+        },
+        {
+            "name": "Lisa Johnson",
+            "role": "Data Architect",
+            "allocation": 80
+        },
+        {
+            "name": "Michael Chen",
+            "role": "ETL Developer",
+            "allocation": 100
+        },
+        {
+            "name": "Sarah Williams",
+            "role": "Business Analyst",
+            "allocation": 50
+        },
+        {
+            "name": "Robert Davis",
+            "role": "Cloud Engineer",
+            "allocation": 75
+        }
+    ],
+    "milestones": [
+        {
+            "name": "Requirements Gathering",
+            "planned_date": "2023-02-28",
+            "actual_date": "2023-03-10",
+            "status": "Completed"
+        },
+        {
+            "name": "Architecture Design",
+            "planned_date": "2023-04-15",
+            "actual_date": "2023-04-20",
+            "status": "Completed"
+        },
+        {
+            "name": "Development Phase 1",
+            "planned_date": "2023-06-30",
+            "actual_date": "2023-07-05",
+            "status": "Completed"
+        },
+        {
+            "name": "User Acceptance Testing",
+            "planned_date": "2023-08-15",
+            "actual_date": null,
+            "status": "In Progress"
+        },
+        {
+            "name": "Go-Live",
+            "planned_date": "2023-10-15",
+            "actual_date": null,
+            "status": "Not Started"
+        }
+    ],
+    "risks": [
+        {
+            "id": "RISK-001",
+            "name": "Data Migration Delay",
+            "description": "Potential delay in migrating historical data due to inconsistencies in source data format",
+            "probability": 0.7,
+            "impact": 0.8,
+            "status": "Open"
+        },
+        {
+            "id": "RISK-002",
+            "name": "Resource Constraints",
+            "description": "ETL developer might be pulled into another critical project",
+            "probability": 0.5,
+            "impact": 0.6,
+            "status": "Open"
+        },
+        {
+            "id": "RISK-003",
+            "name": "Budget Overrun",
+            "description": "Cloud infrastructure costs might exceed initial estimates",
+            "probability": 0.4,
+            "impact": 0.9,
+            "status": "Mitigated"
+        }
+    ],
+    "issues": [
+        {
+            "id": "ISSUE-001",
+            "name": "API Integration Failure",
+            "description": "The third-party API integration is failing due to undocumented API changes",
+            "priority": "High",
+            "status": "In Progress",
+            "assigned_to": "Lisa Johnson"
+        },
+        {
+            "id": "ISSUE-002",
+            "name": "Performance Bottleneck",
+            "description": "Query performance degradation observed during large data loads",
+            "priority": "Medium",
+            "status": "Open",
+            "assigned_to": "Michael Chen"
+        }
+    ],
+    "stakeholders": [
+        {
+            "name": "Jane Wilson",
+            "role": "Executive Sponsor",
+            "department": "Finance",
+            "influence": "High"
+        },
+        {
+            "name": "David Thompson",
+            "role": "Business Owner",
+            "department": "Analytics",
+            "influence": "High"
+        },
+        {
+            "name": "Emily Harris",
+            "role": "End User Representative",
+            "department": "Marketing",
+            "influence": "Medium"
+        },
+        {
+            "name": "Thomas Moore",
+            "role": "IT Director",
+            "department": "IT",
+            "influence": "Medium"
+        },
+        {
+            "name": "Patricia Garcia",
+            "role": "Compliance Officer",
+            "department": "Legal",
+            "influence": "Low"
+        }
+    ],
+    "dependencies": [
+        {
+            "id": "DEP-001",
+            "name": "Cloud Environment Setup",
+            "dependent_on": "External Cloud Team",
+            "status": "Completed"
+        },
+        {
+            "id": "DEP-002",
+            "name": "Data Security Approval",
+            "dependent_on": "Security Team",
+            "status": "Delayed"
+        },
+        {
+            "id": "DEP-003",
+            "name": "Source System API Access",
+            "dependent_on": "Legacy System Team",
+            "status": "In Progress"
+        }
+    ]
+}
